@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || '/api',
+  baseURL: import.meta.env.VITE_API_URL || 'https://student-portal-backend-flame.vercel.app/api',
 });
 
 // Add a request interceptor to attach the JWT token to every request
